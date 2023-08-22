@@ -1,0 +1,21 @@
+Program-2 
+EXP. No. 02 
+Enter a positive number terminated by zero and find 
+sum and average. 
+|<html> 
+<head> 
+<title> sum and average </title> 
+<head> 
+<body> 
+<script> 
+var val, sum =0, count=0; 
+while (val !=0) 
+{ 
+val = parse Float (prompt ("enter a value”));
+sum = sum+val; 
+count++; 
+alert('sum = " + sum); 
+alert("count = " + count); 
+avg = sum /(count-1); 
+alert ("average = " + avg); .. 
+

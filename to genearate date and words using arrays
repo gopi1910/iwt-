@@ -1,0 +1,25 @@
+Program-10 
+EXP. No.....10. 
+Develop a html form which accepts any mathematical expression, write java script code to evaluate the 
+expression and display the result 
+<html> 
+<head> 
+<title> prgm 10 </title> 
+<script> 
+function progress () { 
+dom=document.getElementById 
+("exp"), value; 
+e=eval (dom); 
+document.write(e); 
+} 
+</script> 
+<form> 
+</head> 
+<body> 
+Enter an expression <input type="text" 
+name="exp" id="exp"> <br /> 
+<input type="submit" value="evaluate"
+ onclick="progress ()"> 
+</form> 
+</body> 
+</html> 

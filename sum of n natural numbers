@@ -1,0 +1,21 @@
+Program-4 
+EXP. No...04. 
+write a java script code to find the sum of numbers. (user-defined function) N natural 
+<html> 
+<head> 
+<title> sum of natural numbers </title> 
+</head> 
+<body> 
+<script> 
+function sum (n)
+{ 
+sum=0 
+for (i=1;i<==n;i++) 
+Sum = sum+i; 
+Return  sum; }
+n = prompt ("enter n value:"); 
+sum_ n = sum(n); 
+alert (sum_n)
+; </script>
+</body>
+</html>

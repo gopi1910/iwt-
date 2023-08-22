@@ -1,0 +1,50 @@
+
+Program-8 
+Student Registration Form 
+create a form having number of elements (Textboxes, radio buttons, checkboxes, and so on) write Java script code to count the number of elements in a form 
+<html> 
+<head> 
+<title> prgm 8 </title> 
+<script> 
+function count() { 
+n=document.getElementById("1"), length; 
+alert (“number of elements = "+n); 
+}
+</script>  
+</head> 
+<body> 
+<h2> student Registration form </h2> 
+<form id="1"> 
+Name &nbsp; <input type="text" name= 
+"name"> <br /> <br /> &nbsp; 
+Password &nbsp; <input type="password" 
+name = "pwd"> <br /> <br /> &nbsp; DOB &nbsp; <input type="date"> <br /> &nbsp;
+Course <select> &nbsp; 
+<option> BCA <loption>
+<option> Bsc </option> 
+<option> Bcom <loptior>
+</select> <br /> <br /> &nbsp; 
+Gender &nbsp; <input type="radio" name= "gen" value="m"> Male &nbsp; 
+
+<input type="radio" name="gen
+" value = "F"> Female &nbsp;
+ <input type="radio" name="gen" 
+value="0">others nbsp; 
+</select><br /> <br /> &nbsp; 
+Language &nbsp; <input_type="checkbox" 
+name = "lan" value="kan">kannada &nbsp;
+ <input type="checkbox" name="lan" 
+value = "Eng "> English &nbsp;
+ <input type="checkbox" name="lan" 
+value = "hin"> Hindi &nbsp; 
+<br /> <br /> &nbsp; 
+Address nbsp; <textarea rows = 3 cols = 100> 
+</textarea> <br /> <br /> &nbsp; 
+Uploadpic &nbsp; <input type="file"> 
+<br /> <br /> &nbsp; 
+<input type="submit" onclick="count()"> 
+nbsp; 
+<input type="reset"> 
+</form> 
+</body> 
+</html> 

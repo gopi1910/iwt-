@@ -1,0 +1,35 @@
+
+Program-9 
+create a form that has number of text boxes, when the form runs in the browser full the text boxes with 
+data, write Java script code that verifies all textboxes has been filled. If a textbox has been left empty popup and alert indicating which 
+the textbox has been left empty. 
+<html> 
+<head> 
+<title> prgmq</title> 
+<script> 
+function check (0){
+if (document, get ElementById ("ids) 
+• value == "") 
+alert ("enter first name"); 
+if (document, get ElementById("id2"). 
+_value == "!!!) 
+alert Center last name") 
+if (document.getElementById("id"). 
+•·.value == "") 
+alert('enter user name")); 
+}
+</script> 
+
+</head> 
+<body> 
+<form> 
+firstname <input type="text" id="id1"> 
+<br /> <br /> &nbsp; 
+lastname <input type="text" id="id2"> 
+<br /> <br /> &nbsp; 
+username <input type="text" id="ida"> 
+<br /> <br /> &nbsp; 
+<input type="submit" onclick="check ()”>
+</form> 
+<//body> 
+</html> 

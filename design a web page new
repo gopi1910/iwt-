@@ -1,0 +1,37 @@
+Program-1 
+Design a web page wing css 
+<html> 
+<head> 
+<title> IWI </title> 
+<style> 
+h1{
+color: blue; 
+text-align: center;}
+{
+color: red; 
+font-size: 30px; 
+font-family: Courter; 
+}
+ font { 
+color: orange; 
+font-size: 30px; 
+font-family: "Times New Roman"; 
+} 
+</style> 
+</head> 
+<body style="background-color: lightblue;"> 
+<b1> IWI <br /> Internet </b1>
+<p> id="para" > Internet and web. Technologies </p> 
+<h1> E-commerce <[h1>
+<p> style="color:red; font-size: 30px; 
+font-family: Bradely Hand ITC; 
+text-align: center; “>
+Electronic commerce is buying and selling of goods </h1> 
+<h1> E-Governance </h1> 
+<p class="font "> Electronic Governance  is the application of information technology for delivering govt 
+services </p>
+</body
+</html>
+
+
+ 
